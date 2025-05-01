@@ -23,7 +23,7 @@ public static void main(String[] args) {
 
         while (!guess) {
             System.out.print("Введи свою догадку: ");
-            String input = scanner.next(); // вводим строку
+            String input = scanner.nextLine(); // вводим строку
 
             if (input.equalsIgnoreCase(RESULT)) { // при вводе RESULT выводим данные об игре
                 System.out.println("Текущее количество попыток: " + attempts);
